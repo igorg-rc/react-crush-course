@@ -13,8 +13,8 @@ export const MeetupList = props => {
           id={meetup.id} 
           image={meetup.image} 
           title={meetup.title} 
-          address={meetup.address} 
           description={meetup.description} 
+          address={meetup.address} 
         /> 
       )) }
     </ul>
