@@ -2,12 +2,15 @@
   margin: 1rem 0;
 }
 
+.ImageHolder {
+  padding-top: 3vh;
+}
+
 .Image {
   width: 70%;
   height: auto;
   overflow: hidden;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
+  border-radius: 10px;
 }
 
 .Image img {
