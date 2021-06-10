@@ -39,9 +39,9 @@
 }
 
 .Badge {
-  background-color: #cc2062;
+  background-color: #D396FF;
   color: white;
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin-left: 0.5rem;
+  border-radius: 5px;
+  padding: 0 0.8rem;
+  margin-left: 1rem;
 }
