@@ -2,10 +2,9 @@ import classes from './MeetupItem.module.css'
 import { Card } from '../../UI/Card/Card'
 
 export const MeetupItem = props => {
-  const { id, image, title, description, address } = props
+  const { image, title, description, address } = props
 
   return (
-    <>
       <li className={classes.Item}>
         <Card>
           <div className={classes.ImageHolder}>
@@ -21,6 +20,5 @@ export const MeetupItem = props => {
           </div>
         </Card>
       </li>
-    </>
   )
 }

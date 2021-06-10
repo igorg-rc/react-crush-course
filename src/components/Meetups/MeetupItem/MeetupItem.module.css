@@ -43,7 +43,12 @@
   border-radius: 4px;
 }
 
-.Actions button:hover,
+.Actions button:hover {
+  background-color: indigo;
+  color: white;
+}
+
 .Actions button:active {
-  background-color: #f2e6ff;
+  background-color: white;
+  color: indigo;
 }
