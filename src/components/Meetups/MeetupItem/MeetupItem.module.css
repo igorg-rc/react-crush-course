@@ -1,0 +1,46 @@
+.Item {
+  margin: 1rem 0;
+}
+
+.Image {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.Image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.Content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+}
+
+.Actions {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.Actions button {
+  font: inherit;
+  cursor: pointer;
+  color: indigo;
+  border: 1px solid indigo;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.Actions button:hover,
+.Actions button:active {
+  background-color: #f2e6ff;
+}
